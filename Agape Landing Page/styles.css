@@ -1,0 +1,138 @@
+
+/* Title Section */
+.logo-image {
+  width: 40%;
+}
+
+.navbar-brand {
+  width: 30%;
+}
+
+.nav-item {
+  width: 30%;
+  margin: 0 ;
+}
+
+.title-image{
+  width : 100%;
+}
+
+.container-fluid {
+  padding: 5% 0 0 0;
+}
+
+@media (max-width: 720px){
+  .logo-image {
+    width: 90%;
+  }
+  .container-fluid {
+    padding: 10% 0 0 0;
+  }
+}
+
+/* Features Section */
+
+#features {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.features-wholepart{
+  padding: 3% 5%;
+  margin: 0;
+}
+
+.features-image {
+  border-radius: 100%;
+  width: 90%;
+}
+
+.features-text {
+  padding: 10% 10% 5% 10%;
+}
+
+/* Target-people Section */
+
+#target-people {
+  text-align: center;
+  background-color: #A1c084;
+  color: white;
+}
+
+.target-people-row {
+  padding: 10% 5% 15%;
+  margin: 0;
+}
+
+.target-people-image {
+  border-radius: 100% ;
+  width: 90%;
+  padding: 0 0 5%;
+}
+
+/* Lets Buy Section */
+
+#letsbuy {
+  padding: 15% 0 15% 0;
+  margin: 0 ;
+  width: 100%;
+  text-align: center;
+}
+
+.letsbuy-wholepart {
+  width: 100%;
+  margin: 0;
+}
+
+.letsbuy-fiber-image {
+  width: 100%;
+}
+
+.letsbuy-fiber-text{
+  padding: 10% 0 0 0;
+}
+
+.letsbuy-slogan1 {
+  font-size: 3rem;
+  color: #dc3545;
+  position: relative;
+  right:10%;
+}
+
+.letsbuy-slogan2 {
+  font-size: 3rem;
+  color: #dc3545;
+  position: relative;
+  left:10%;
+}
+
+@media (max-width: 720px) {
+
+  .letsbuy-slogan1 {
+    font-size: 3rem;
+    color: #dc3545;
+    position: static;
+    text-align: center;
+  }
+
+  .letsbuy-slogan2 {
+    font-size: 3rem;
+    color: #dc3545;
+    position: static;
+    text-align: center;
+  }
+
+  .letsbuy-button {
+    position: static;
+  }
+
+}
+
+/* Footer Section */
+#footer {
+  background-color: black;
+  color: white;
+  padding: 5% 0;
+  text-align: center;
+}
